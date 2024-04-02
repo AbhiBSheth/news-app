@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base:" /news-mag/",
   plugins: [react()],
+  base: "/news-app/"
 })
